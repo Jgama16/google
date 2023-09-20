@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+.portada{
+    position: static;
+}
+
+.port_Container{
+    margin: 10px 0 0 10px;
+    font-size: 1rem;
+}
+.base{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+
+.TilePort{
+    text-decoration: none;
+    color: rgb(52, 50, 50);
+    margin-left: 1%;
+}
+
+
+.PartTwo{
+    /* width: 0 50%;
+    margin-top: 1%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    gap: 1em; */
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-left: 56%;
+}
+.Icon{
+    width: 7%;
+    height: 70%;
+    
+}
+
+.Seccion{
+    color:aliceblue;
+    display: block;
+    border-radius: 4px;
+    border-color:blue ;
+    background-color: rgb(36, 117, 231);
+    padding: 7px;
+}
+
+/* main */
+
+
+
+.imaga-port{
+    display: block;
+    width: 100%;;
+    text-align: center;
+    
+
+}
+.google{
+    
+    padding-top: 10%;
+    padding-bottom: 3%;
+    width: 30%;
+   
+
+}
+
+/* container */
+
+.container{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.PartOne_Container{
+    position:relative;
+}
+.buscar{
+    position: relative;
+    display: block;
+}
+.Texto_container{
+    position: absolute;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    padding: 5px;
+    margin: 0 25%;
+    border: solid;
+    border-color: rgb(189, 189, 189);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+.bs{
+    
+    position: absolute;
+    margin-left: 26%;
+    margin-top: 10px;
+    width: 1%;
+}
+.micro{
+    position: absolute;
+    margin-left: 73%;
+    margin-top: 3px;
+    width: 1.8%;
+}
+
+.botones{
+    
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    padding: 5% 35% ;
+    align-items: center;
+}
+.LookFor{
+    width: 100%;
+    align-items: center;
+}
+.Go{
+    width: 100%;
+}
+.PartTwo_Container{
+    text-align: center;
+
+}
+
+.information{
+    font-size: 1rem;
+    
+}
+.Basee{
+    display: grid;
+    grid-template-columns: 1fr
+
+}
+.Text_two{
+    gap: 10em;
+}
+.text_bar{
+    /* font-size: 1rem;
+    margin: 50px;
+    display: flex;
+    gap: 1em;
+    padding: 0% 35%;
+    text-align: center; */
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* footer */
+.End{
+    /* position: absolute;
+    display: grid;
+    width: 100%;
+    text-decoration: none; */
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10%;
+}
+
+
+.footer_partone{
+    /* background-color: rgb(228, 228, 228);
+    border-color: rgb(254, 251, 251);
+    border-style: solid; */
+    background-color: rgb(239, 239, 239);
+    padding-left: 28px;
+    padding-top: 10px;
+}
+.footer_partTwo{
+    /* color: black;
+    background-color: rgb(228, 228, 228);
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-style: solid;
+    border-color: rgb(248, 251, 253);
+    text-decoration: none; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(239, 239, 239);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.left{
+
+}
+.rait{
+    padding-right: 10px;
+   text-align: end;
+}
